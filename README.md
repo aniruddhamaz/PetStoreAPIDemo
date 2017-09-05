@@ -1,10 +1,10 @@
 This is a sample mobile app application demonstrating the usage of Amazon API Gateway SDK to access API's defined in the Amazon API Gateway.
 
-## How to get started with this
+# How to get started with this
 
 *This app works with the Example API created by Amazon API Gateway.*
 
-##### 1. Create the API
+### 1. Create the API
 
 This step will create an API that can be invoked from the mobile app.
 
@@ -20,7 +20,7 @@ This step will create an API that can be invoked from the mobile app.
 **Note:** *The API created will be a public API, which should suffice for this demo. However, appropriate security should be added for API's. See [Control Access In API Gateway](http://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html) for more details on how to setup authorization and control access*
 
 
-##### 2. Test the API
+### 2. Test the API
 
 1. Select *Resources* on the left and select */pets*
 2. Click on *GET* in the top-left box
@@ -47,7 +47,7 @@ Make sure the test works and shows a *Response Body* as below
   }
 ]
 ```
-##### 3. Generate the SDK and Integrate into this project
+### 3. Generate the SDK and Integrate into this project
 
 1. Click on *Stages* on the left and then select *Development*
 2. Click on *SDK Generation* tab
@@ -59,7 +59,7 @@ Make sure the test works and shows a *Response Body* as below
 
 **Note:** These steps should be performed every time API is deployed.
 
-##### 4. Build and run the app
+### 4. Build and run the app
 
 1. Build the app
 
@@ -72,7 +72,7 @@ Make sure the test works and shows a *Response Body* as below
   $ ionic cordova run ios
   ```
 
-## Integration notes
+# Integration notes
 
 1. The SDK should be re-generated and integrated into the app for every deployment as the API's might have changed.
 2. Its advisable to use Stages for deploying your API's during the development stage. Remember to delete stages when not required.
